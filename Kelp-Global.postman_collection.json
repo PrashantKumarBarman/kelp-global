@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "df158454-d7f3-402c-8902-f9727bc1ce73",
+		"name": "Kelp-Global",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11943920"
+	},
+	"item": [
+		{
+			"name": "CSV-to-JSON",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "multipart/form-data",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/csv-to-json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"csv-to-json"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
